@@ -1,0 +1,17 @@
+<div class="container">
+<div class="row">
+        <div *ngFor="let contact of allContacts;" class="card col-3" style="width:300px">
+            
+            <div class="card-body">
+                <h5 class="card-title"><b>Id : </b>{{contact.id}}</h5>
+                <p class="card-text"><b>Username : </b>{{contact.username}}</p>
+                <p class="card-text"><b>Email : </b>{{contact.email}}</p>
+                <p class="card-text"><b>City : </b>{{contact.address.city}}</p>
+            </div>
+            </div>
+        </div>  
+    </div>
+        
+        
+    
+

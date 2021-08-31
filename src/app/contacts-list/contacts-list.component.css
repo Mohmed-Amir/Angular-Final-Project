@@ -1,0 +1,12 @@
+.card {
+    min-height: 270px;
+    background-color: ghostwhite;
+    padding: 20px;
+    margin: 40px;
+    font-size: 18px;
+    color: rgb(107, 75, 34);
+    border: 5px solid rgb(36, 42, 49);
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
